@@ -17,16 +17,18 @@ const lastnames = [
   "Marazzini",
 ];
 
-let name;
-let lastname;
+let firstName;
+let lastName;
 
 let completeNameArray = [];
 
 for (let i = 0; i < names.length; i++) {
-  name = names[i];
+  firstName = names[i];
   for (let i = 0; i < lastnames.length; i++) {
-    lastname = lastnames[i];
+    lastName = lastnames[i];
   }
 
-  completeNameArray.push[name + lastname];
+  completeNameArray.push(`${firstName} + ${lastName}`);
+
+  console.log(completeNameArray);
 }
